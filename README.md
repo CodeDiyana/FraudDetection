@@ -18,8 +18,8 @@ The goal of this project is to investigate and detect counterfeit banknotes usin
 <h2>Program walk-through:</h2>
 
 <p align="center">
-Importing our Libaries: <br/>
-<img src="https://i.imgur.com/0hnbXA6.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+In the first step, the data was loaded into Jupyter Notebook and its overall structure was examined. Using functions such as info() and isnull(), it was verified that the data set did not have missing values and that all variables were numeric. The data was also analyzed using descriptive statistics including mean, standard deviation, minimum, and maximum.: <br/>
+<img src="https://imgur.com/a/02OkBRm](https://i.imgur.com/fnCUEdH.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 Select the disk:  <br/>
