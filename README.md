@@ -17,7 +17,7 @@ The goal of this project is to investigate and detect counterfeit banknotes usin
 
 <h2>Program walk-through:</h2>
 
-<h2>Project workflow </h2>
+
 
 - <b>Data cleaning and preprocessing</b> 
 - <b> Exploratory Data Analysis (EDA))</b>
