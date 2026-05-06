@@ -1,6 +1,5 @@
 <h1>Fraud Detection - Machine Learining</h1>
 
- ### [YouTube Demonstration](https://youtu.be/7eJexJVCqJo)
 
 <h2>Description</h2>
 The goal of this project is to investigate and detect counterfeit banknotes using machine learning and data visualization.This project uses the bill_authentication.csv dataset, which extracts four numerical features including variance, skewness, entropy, and kurtosis from the digital image of banknotes. And the target variable with class determines whether the banknote is fake or genuine. By analyzing this data, we can create models that can identify fake banknotes with high accuracy and reduce the risks of fraud.
