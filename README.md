@@ -17,34 +17,40 @@ The goal of this project is to investigate and detect counterfeit banknotes usin
 
 <h2>Program walk-through:</h2>
 
+<h2>Project workflow </h2>
+
+- <b>Data cleaning and preprocessing</b> 
+- <b> Exploratory Data Analysis (EDA))</b>
+- <b>Data visualization using Matplotlib and Seaborn</b>
+
+- <b>Dataset splitting (training and testing sets)</b> 
+- <b> Implementation of classification and regression models</b>
+- <b>Model evaluation and performance analysis</b>
+
+
+
+
+<h2>Program Data Visualization:</h2>
+
 <p align="center">
-In the first step, the data was loaded into Jupyter Notebook and its overall structure was examined. Using functions such as info() and isnull(), it was verified that the data set did not have missing values and that all variables were numeric. The data was also analyzed using descriptive statistics including mean, standard deviation, minimum, and maximum.: <br/>
-<img src="https://imgur.com/a/02OkBRm](https://i.imgur.com/fnCUEdH.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+data visualization from EDA is implemented,  helps to better understand  relationships between variables. First, the class distribution 
+is examined, which shows that the number of counterfeit and genuine banknotes is balanced. This balance is important for machine learning
+models while severe class imbalance can lead to biased predictions.Then, by drawing histograms and density graphs, the difference in their production in the two categories was examined. The results show that some features such as variance and skewness have high potential in distinguishing counterfeit banknotes from genuine banknotes.:  <br/>
+<img src="https://i.imgur.com/YLOscjv.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Select the disk:  <br/>
-<img src="https://i.imgur.com/tcTyMUE.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+o examine the relationship between features using a correlation heatmap. There were no strong correlations between features, indicating that these data were not suitable for multiple collinearity.
+: <br/>
+<img src="https://i.imgur.com/iNnEcsa.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Enter the number of passes: <br/>
-<img src="https://i.imgur.com/nCIbXbg.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Visualize key insights with histograms
+A histogram shows the explanation of each feature. Check data for normality
+Identify skewness
+:  <br/>
+<img src="https://i.imgur.com/NbmEWIP.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
-<br />
-Confirm your selection:  <br/>
-<img src="https://i.imgur.com/cdFHBiU.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Wait for process to complete (may take some time):  <br/>
-<img src="https://i.imgur.com/JL945Ga.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Sanitization complete:  <br/>
-<img src="https://i.imgur.com/K71yaM2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Observe the wiped disk:  <br/>
-<img src="https://i.imgur.com/AeZkvFQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
 
 <!--
  ```diff
