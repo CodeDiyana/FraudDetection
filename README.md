@@ -19,7 +19,7 @@ The goal of this project is to investigate and detect counterfeit banknotes usin
 
 
 - <b>Data cleaning and preprocessing</b> 
-- <b> Exploratory Data Analysis (EDA))</b>
+- <b> Exploratory Data Analysis (EDA)</b>
 - <b>Data visualization using Matplotlib and Seaborn</b>
 
 - <b>Dataset splitting (training and testing sets)</b> 
@@ -50,6 +50,30 @@ Identify skewness
 :  <br/>
 <img src="https://i.imgur.com/NbmEWIP.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
+
+<h2>Tableu :</h2>
+<br />
+To examine the distribution of features in each class, we used box plots. These plots show the dispersion, median, and outliers of each feature in the two groups of counterfeit and real banknotes. This result shows that some features, especially variance and entropy, have significant differences between the two classes, which play an important role in the classification process.  <br/>
+  <br/>
+<img src="https://i.imgur.com/Wo15Klz.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+
+A scatter plot is also constructed to examine the relationship between features such as variance and entropy. By assigning different colors to each class, the visual distinction between counterfeit and genuine banknotes is very clear.Interactive dashboards have also been used in the dashboards so that users can dynamically examine specific features or a class of banknotes. This interactivity allows us to delve deeper into the analysis and focus on high-risk cases. In addition, the results from the logistic regression are presented alongside the actual values to implement a visual comparison between the actual classification and the predicted values. This comparison helped to find misclassifications and complete the visual assessment of the model performance.  <br/>
+  <br/>
+   <br/>
+<img src="https://i.imgur.com/uSOBDpx.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+
+<br/>
+<img src="https://i.imgur.com/0Sw8FeQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+
+<h2>Project Output :</h2>
+This project showed that visual features extracted from scanned images using wavelet transform are good features for detecting counterfeit banknotes. Exploratory analysis shows a significant difference between variance and entropy and regression model, we used these differences for class prediction. Confusion matrix and classification report show that the model has high accuracy and low false negative error rate, which is important to prevent losses due to incorrect banknote detection.
+
+  <br/>
+
 
 <!--
  ```diff
