@@ -12,6 +12,8 @@ The goal of this project is to investigate and detect counterfeit banknotes usin
 - <b>Phyton</b> 
 - <b>Matplotlib</b>
 - <b>Seaborn</b>
+- <b>tableau</b>
+
 
 
 <h2>Program walk-through:</h2>
@@ -51,7 +53,7 @@ Identify skewness
 <img src="https://i.imgur.com/NbmEWIP.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 
-<h2>Tableu :</h2>
+<h2>tableau :</h2>
 <br />
 To examine the distribution of features in each class, we used box plots. These plots show the dispersion, median, and outliers of each feature in the two groups of counterfeit and real banknotes. This result shows that some features, especially variance and entropy, have significant differences between the two classes, which play an important role in the classification process.  <br/>
   <br/>
